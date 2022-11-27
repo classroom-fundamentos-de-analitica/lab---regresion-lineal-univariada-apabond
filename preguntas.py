@@ -18,8 +18,8 @@ def pregunta_01():
     df = pd.read_csv("gm_2008_region.csv")
 
     # Asigne la columna "life" a `y` y la columna "fertility" a `X`
-    y = df["life"].append
-    X = df["fertility"].append
+    y = df["life"].insert()
+    X = df["fertility"].insert()
 
     # Imprima las dimensiones de `y`
     print(y.shape)
